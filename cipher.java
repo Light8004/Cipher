@@ -2,6 +2,7 @@ class cipher{
 
     Boolean prev;
     Boolean mod; 
+
     int lvl; 
     static String roxy; 
     static String raptor; 
@@ -67,8 +68,15 @@ class cipher{
 
                     
 
-
-
+    static boolean decryptbool(String str){
+           boolean dc; 
+           
+    
+            return dc; 
+        
+        
+    }
+    
 
     public static void main(String[] args)  {
 
