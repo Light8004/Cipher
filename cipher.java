@@ -1,7 +1,5 @@
 class cipher{
 
-
-
     Boolean prev;
     Boolean mod; 
     int lvl; 
@@ -17,7 +15,7 @@ class cipher{
             }    
 
 
-                    static String cryptbool(Boolean free, int imp){
+            static String cryptbool(Boolean free, int imp){
                         
                         roxy = ""; 
 
@@ -28,15 +26,16 @@ class cipher{
                             if(i%2==1){
                                 raptor = roxy + "1";
                             }
+                                
                             else{
                                         raptor = roxy + "0";
 
                             }
 
-                        }
+                         }
                             }
                         
-                    }
+             }
                        
                     
                         
