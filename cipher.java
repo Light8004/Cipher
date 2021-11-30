@@ -40,6 +40,8 @@ class cipher extends RSA{
            boolean dc = true; 
     return dc;  
     }
+
+    
     
     public static void main(String[] args)  {
 

@@ -16,6 +16,8 @@ class RSA {
  
         // 2nd prime number q
         q = 11;
+
+        
         n = p * q;
         z = (p - 1) * (q - 1);
         System.out.println("the value of z = " + z);
