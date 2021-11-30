@@ -1,4 +1,5 @@
-class cipher{
+
+class cipher extends RSA{
 
     Boolean prev;
     Boolean mod; 
@@ -34,42 +35,19 @@ class cipher{
                             }
 
                          }
-                            }
-                        
-             }
-                       
-                    
-                        
-                        if(imp>5 && imp>10){
-
-
-                        }
-                        
-                        if(imp>=10){
-                        imp = imp^9; 
-                        
-                        for(int i = 0; i<imp; i++){
-                            
-                            raptor = raptor + "0";
- 
-                                
-                        
-                           
-                            
                         }
                     }
-
 
 
                        return raptor ;
-                    }
+            }
             
 
 
                     
 
     static boolean decryptbool(String str){
-           boolean dc; 
+           boolean dc = true; 
            
     
             return dc; 
