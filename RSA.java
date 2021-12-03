@@ -42,7 +42,7 @@ class RSA {
         System.out.println("the value of d = " + d);
         c = (Math.pow(msg, e)) % n;
         System.out.println("Encrypted message is : " + c);
- 
+
         // converting int value of n to BigInteger
         BigInteger N = BigInteger.valueOf(n);
  

@@ -68,6 +68,84 @@ class cipher extends RSA{
         
 
     }
+
+    public String excessiveCryptStr(String str){
+            String rstr; 
+            str = str.toLowerCase(); 
+
+            for(int i = 0; i<str.length(); i++){
+                if(str.charAt(i).equals("a")){
+                    rstr += "b"
+                }
+                if(str.charAt(i).equals("b")){
+                    rstr += "c"
+                }
+                if(str.charAt(i).equals("c")){
+                    rstr += "d"
+                }
+                if(str.charAt(i).equals("d")){
+                    rstr += "e"
+                }
+                if(str.charAt(i).equals("e")){
+                    rstr += "f"
+                }
+                if(str.charAt(i).equals("f")){
+                    rstr += "g"
+                }
+                if(str.charAt(i).equals("g")){
+                    rstr += "h"
+                }if(str.charAt(i).equals("h")){
+                    rstr += "i"
+                }if(str.charAt(i).equals("i")){
+                    rstr += "j"
+                }if(str.charAt(i).equals("j")){
+                    rstr += "k"
+                }if(str.charAt(i).equals("k")){
+                    rstr += "l"
+                }if(str.charAt(i).equals("l")){
+                    rstr += "m"
+                }if(str.charAt(i).equals("m")){
+                    rstr += "n"
+                }if(str.charAt(i).equals("n")){
+                    rstr += "o"
+                }if(str.charAt(i).equals("o")){
+                    rstr += "p"
+                }if(str.charAt(i).equals("p")){
+                    rstr += "q"
+                }if(str.charAt(i).equals("q")){
+                    rstr += "r"
+                }if(str.charAt(i).equals("r")){
+                    rstr += "s"
+                }if(str.charAt(i).equals("s")){
+                    rstr += "t"
+                }if(str.charAt(i).equals("t")){
+                    rstr += "u"
+                }if(str.charAt(i).equals("u")){
+                    rstr += "v"
+                }if(str.charAt(i).equals("v")){
+                    rstr += "w"
+                }if(str.charAt(i).equals("w")){
+                    rstr += "x"
+                }if(str.charAt(i).equals("x")){
+                    rstr += "y"
+                }if(str.charAt(i).equals("y")){
+                    rstr += "z"
+                }
+                if(str.charAt(i).equals("z")){
+                    rstr += "a"
+                }
+
+
+
+            }
+            for(int i = 0; i<str.length; i++){
+                if(i%2 == 1){
+                    rstr.charAt(i).toUpperCase();
+                }
+            }
+
+        return rstr; 
+    }
     public static void main(String[] args)  {
 
             System.out.println("hw");
